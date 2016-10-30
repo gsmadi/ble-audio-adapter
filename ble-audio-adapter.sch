@@ -31,7 +31,54 @@ LIBS:contrib
 LIBS:valves
 LIBS:ble_uart_friend
 LIBS:KL05
-LIBS:ble-audio-adapter-cache
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:Altera
+LIBS:analog_devices
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:logo
+LIBS:maxim
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:Xicor
+LIBS:Zilog
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -271,8 +318,8 @@ L Battery BT1
 U 1 1 5809AECB
 P 5500 1600
 F 0 "BT1" H 5600 1650 50  0000 L CNN
-F 1 "Battery" H 5550 1500 50  0000 L CNN
-F 2 "" V 5500 1640 50  0001 C CNN
+F 1 "9V" H 5300 1600 50  0000 L CNN
+F 2 "component_footprints:Battery_Connector" V 5500 1640 50  0001 C CNN
 F 3 "" V 5500 1640 50  0000 C CNN
 	1    5500 1600
 	1    0    0    -1  
